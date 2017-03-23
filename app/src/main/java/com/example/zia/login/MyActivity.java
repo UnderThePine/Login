@@ -28,7 +28,7 @@ public class MyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_my);
         getSupportActionBar().hide();
 
-        pulse = (TextView) findViewById(player);
+        pulse = (TextView) findViewById(R.id.player);
         go_web = (TextView) findViewById(R.id.go_web);
 
         Mediaplayer = new MediaPlayer();
